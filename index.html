@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/carousel/carousel.css">
+    <title>Borgsid - a silsfinest llc</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="section-one">
+                <a text style="text-decoration: none;">Join My Network</a>
+                <!-- Add your social media links and buttons here -->
+                <a id="climate-pledge-btn">Climate Pledge</a>
+                <a id="donate-btn">Donate</a>
+                <search placeholder="Search">
+                    <form action="#">
+                        <input type="search" id="movie" name="q" />
+                        <button type="submit">Search</button>
+                    </form>
+                </search>
+            </div>
+            <div class="section-two">
+                <div>
+                    <img src="/Images/logo.png" alt="Logo" width="50px">
+                    <span>Volunteer Me</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#join">Join</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-1">
+            <div class="slideshow-container">
+              
+                <div class="mySlides fade">
+                    <!-- <div class="text">Russia2018 01</div> -->
+                    <div class="numbertext">1 / 2</div>
+                    <img class="zoom" src="Images/Russia2018FWC_01.JPG" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <!-- <div class="text">Russia2018 02</div> -->
+                    <div class="numbertext">2 / 2</div>
+                    <img class="zoom" src="/Images/Russia2018FWC_02.JPG" style="width:100%">
+                </div>
+                <div class="carousel-container">
+                    <div class="carousel-dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>
+                    <div class="carousel-arrows">
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+    <footer>
+        <div class="sticky-section">
+            <button id="accessibility-btn">Accessibility</button>
+            <div class="secondary-menu">
+                <span>Accessibility</span>
+                <div>
+                    <button>Enlarge</button>
+                    <button>Decrease</button>
+                    <button>Reading Guide</button>
+                    <button>Contrast</button>
+                    <button>Highlight Objects</button>
+                    <button>Cursor</button>
+                    <button>Audio Reading</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/carousel/carousel.js"></script>
+</body>
+
+</html>

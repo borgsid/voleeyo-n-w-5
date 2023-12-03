@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    width: 100%;
+    display: inline-block;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #e63742;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 60px;
+    background-color: white;
+}
+
+.section-two div img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-two nav {
+    align-self: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a {
+    color: black;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.1s ease-in-out;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid red;
+}
+
+#climate-pledge-btn,#donate-btn {
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.1s ease-in-out;
+}
+
+#climate-pledge-btn:hover ,#donate-btn:hover {
+    border-bottom: 2px solid white;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background:  #e63742;
+}
+
+.header-container {
+    width: 100%;
+    display: inline-block;
+}
+
+.sticky-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-menu {
+    display: none;
+}
+
+.secondary-menu button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.secondary-menu span {
+    text-align-last: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer:hover .secondary-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+footer:hover #accessibility-btn {
+    display: none;
+}
+
+#accessibility-btn {
+    cursor: pointer;
+}
+
+
+.page-1 {
+    background-image: url('/Images/IMG_20191230_130159.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden; 
+}
+button {
+    padding: 10px;
+    margin: 5px;
+}
