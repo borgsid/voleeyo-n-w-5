@@ -108,9 +108,9 @@ img {
 }
 
 /* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+.slider-animation {
+  animation-name: slide;
+  animation-duration: 5s;
 }
 
 .single-slide-container {
@@ -132,14 +132,22 @@ img {
   grid-row: 1/2;
   z-index: 1;
 }
-
-@keyframes fade {
+ 
+.curvy-box {
+ bottom: 30vw;
+ position: relative;
+ transform: scaleY(-1);
+}
+.curvy-box svg{
+  fill: white;
+}
+@keyframes slide {
   from {
-    opacity: .4
+    left: -100%
   }
 
   to {
-    opacity: 1
+    left: 100%
   }
 }
 

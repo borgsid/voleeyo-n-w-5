@@ -28,6 +28,6 @@ function showSlides(n) {
 }
 
 // Automatically change the slide every 6 seconds
-// setInterval(function() {
-//   plusSlides(1);
-// }, 6000);
+setInterval(function() {
+  plusSlides(1);
+}, 6000);
