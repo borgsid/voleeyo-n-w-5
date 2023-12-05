@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="/carousel/carousel.css">
+    <link rel="stylesheet" href="/fonts.css">
     <title>Borgsid - a silsfinest llc</title>
 </head>
 
@@ -45,26 +46,42 @@
     <main>
         <div class="page-1">
             <div class="slideshow-container">
-              
-                <div class="mySlides fade">
+
+                <div class="mySlides fade single-slide-container">
                     <!-- <div class="text">Russia2018 01</div> -->
-                    <div class="numbertext">1 / 2</div>
-                    <img class="zoom" src="Images/Russia2018FWC_01.JPG" style="width:100%">
+                    <!-- <div class="numbertext">1 / 2</div> -->
+                    <div class="veil">
+
+                        <img class="zoom" src="Images/Russia2018FWC_01.JPG">
+                    </div>
+                    <div class="slide-content content">
+                        <p class="pre-title">The XXI century Volunteer</p>
+                        <p class="title">From across the globe we unite to share our experiences, knowledge and learn
+                            togerther,
+                            thus creating a great family.
+                        </p>
+                        <a href="#" class="btn is-rounded is-transparent is-blanco is-bordered" target="_self"
+                            tabindex="0">
+                            Learn more </a>
+                    </div>
                 </div>
-                
-                <div class="mySlides fade">
+
+                <div class="mySlides fade single-slide-container">
                     <!-- <div class="text">Russia2018 02</div> -->
-                    <div class="numbertext">2 / 2</div>
-                    <img class="zoom" src="/Images/Russia2018FWC_02.JPG" style="width:100%">
+                    <!-- <div class="numbertext">2 / 2</div> -->
+                    <div class="veil">
+                        <img class="zoom" src="/Images/Russia2018FWC_02.JPG">
+                    </div>
                 </div>
+
                 <div class="carousel-container">
                     <div class="carousel-dots">
                         <span class="dot" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
                     </div>
                     <div class="carousel-arrows">
-                        <a class="prev" onclick="plusSlides(-1)">❮</a>
-                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        <button class="prev" onclick="plusSlides(-1)">❮</button>
+                        <button class="next" onclick="plusSlides(1)">❯</button>
                     </div>
                 </div>
 
