@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="/carousel/carousel.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/page-2.css">
-    <title>Borgsid - a silsfinest llc</title>
+    <script src="/main.js"></script>
+    <title>voleeyo | home</title>
 </head>
 
 <body>
     <header>
-        <div class="header-container">
+        <div class="header-container" id="header-container">
             <div class="section-one">
                 <a text style="text-decoration: none;">Join My Network</a>
                 <!-- Add your social media links and buttons here -->
@@ -21,15 +22,21 @@
                 <a href="https://www.buymeacoffee.com/sydneylukee" id="donate-btn">Donate</a>
                 <search placeholder="Search">
                     <form action="#">
-                        <input type="search" id="movie" name="q" />
-                        <button type="submit">Search</button>
+
+                        <div class="search-box">
+                            <input type="text" placeholder="Search..." name ="q">
+                            <button class="search-btn">
+                                <img src="/images/search.svg" alt="magnifying glass">
+                            </button>
+                          </div>
+                        <a type="submit"></a>
                     </form>
                 </search>
             </div>
             <div class="section-two">
                 <div>
                     <img src="/Images/logo.png" alt="Logo" width="50px">
-                    <span>Volunteer Me</span>
+                    <span>Voleeyo</span>
                 </div>
                 <nav>
                     <ul>
@@ -50,8 +57,6 @@
                 <div class="c-carousel">
 
                     <div class="mySlides slider-animation single-slide-container">
-                        <!-- <div class="text">Russia2018 01</div> -->
-                        <!-- <div class="numbertext">1 / 2</div> -->
                         <div class="veil">
                             <img class="zoom" src="Images/Russia2018FWC_01.JPG">
                         </div>
@@ -69,11 +74,19 @@
                     </div>
 
                     <div class="mySlides slider-animation single-slide-container">
-                        <!-- <div class="text">Russia2018 02</div> -->
-                        <!-- <div class="numbertext">2 / 2</div> -->
                         <div class="veil">
                             <img class="zoom" src="/Images/Russia2018FWC_02.JPG">
-
+                        </div>
+                        <div class="slide-content content">
+                            <p class="pre-title">The XXI century Volunteer</p>
+                            <p class="title">From across the globe we unite to share our experiences, knowledge and
+                                learn
+                                togerther,
+                                thus creating a great family.
+                            </p>
+                            <a href="#page-2" class="btn is-rounded is-transparent is-blanco is-bordered" target="_self"
+                                tabindex="0">
+                                Learn more </a>
                         </div>
                     </div>
 
@@ -108,14 +121,14 @@
                                 <li class="menu-item"><a class="scroll-move" href="#">menu 1</a></li>
                                 <li class="menu-item"><a class="scroll-move" href="#">menu 2</a></li>
                                 <li class="menu-item"><a class="scroll-move" href="#">menu 3</a></li>
-                                <li class="menu-item"><a class="scroll-move" href="#">menu 4</a></li>
+                                <li class="menu-item"><a class="scroll-move" href="https://www.teleton.cl/transparencia/memoria-2022/">Roadmap</a></li>
 
                             </ul>
                         </div>
 
 
                         <div class="sticky-content-menu second-list">
-                            <h5 class="menu-with-arrow">
+                            <h5 class="menu-with-arrow" onclick="scrollTOPage('header-container')">
                                   Main page
                                 <span class="span-arrow">↠</span>
                             </h5>
